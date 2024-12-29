@@ -131,8 +131,6 @@ figcaption{
     left: 95svw;
 }
 
-
-
 .flechas > li > a > img{
     width: 30px;
     background-color: silver;
@@ -170,7 +168,7 @@ footer{
     }
 
     .region > img{
-        width: 300px;
+        width: 400px;
     }
 
     .flechas{
@@ -186,5 +184,9 @@ footer{
 
     .flechas{
         left: 85svw;
+    }
+
+    .region > img{
+        width: 300px;
     }
 }
