@@ -57,6 +57,8 @@ h2{
     font-size: 50px;
     margin: 10px;
     padding: 10px;
+    background-color: antiquewhite;
+    border-radius: 20px;
 }
 
 h3{
@@ -71,6 +73,13 @@ h4{
     margin: 10px;
     padding: 10px;
     font-size: 25px;
+}
+
+h5{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
 }
 
 p {
