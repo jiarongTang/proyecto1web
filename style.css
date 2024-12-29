@@ -11,8 +11,6 @@ body{
 header{
     display: flex;
     flex-direction: column;
-    border: 2px solid blue;
-    background-color: whitesmoke;
 }
 
 .lista{
@@ -20,7 +18,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(160, 159, 159);
+    background-color: rgb(183, 181, 181);
     height: 50px;
 }
 
@@ -44,7 +42,6 @@ a:hover{
 
 main{
     padding: 20px;
-    border: 2px solid red;
     margin-top: 10px;
 }
 
@@ -62,15 +59,56 @@ h2{
     padding: 10px;
 }
 
+h3{
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+h4{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+
 p {
     text-align: justify;
     margin: 10px;
     padding: 10px;
 }
 
+.img{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.pokemon{
+    background-color: gainsboro;
+    border-radius: 20px;
+}
 
-img{
+figcaption{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.region > img{
+    width: 500px;
+}
+
+.pokemon > img{
     width: 300px;
 }
 
@@ -85,10 +123,6 @@ footer{
     padding: 10px;
 }
 
-h4{
-    font-size: 25px;
-}
-
 .informacion{
     display: flex;
     justify-content: space-evenly;
@@ -98,6 +132,22 @@ h4{
     
 }
 
-@media  (max-width: 768px) {
-    
+@media  (max-width: 1000px) {
+    h1{
+        font-size: 80px;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    .img{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .region > img{
+        width: 300px;
+    }
 }
