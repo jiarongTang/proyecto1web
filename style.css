@@ -121,6 +121,23 @@ figcaption{
     width: 300px;
 }
 
+.flechas{
+    position: fixed;
+    padding: 10px;
+    margin: 10px;
+    z-index: 1000;
+    list-style: none;
+    top: 85svh;
+    left: 95svw;
+}
+
+
+
+.flechas > li > a > img{
+    width: 30px;
+    background-color: silver;
+    border-radius: 25px;
+}
 
 footer{
     position: sticky;
@@ -155,11 +172,19 @@ footer{
     .region > img{
         width: 300px;
     }
+
+    .flechas{
+        left: 90svw;
+    }
 }
 
 @media  (max-width: 680px) {
     .img{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3,1fr);
+    }
+
+    .flechas{
+        left: 85svw;
     }
 }
